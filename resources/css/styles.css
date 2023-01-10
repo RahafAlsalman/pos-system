@@ -1,0 +1,325 @@
+
+   body{
+
+    
+    height: 100vh;    
+background-color: #e9ecef;
+}
+
+     .Center  {
+        position: absolute;
+        top:59%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+        background: white;
+        
+        border-radius: 10px;
+        height:80vh;
+        margin-top: -5rem;
+     }
+     
+     @media only screen and (max-width:768px) and (min-width:200px)
+{
+
+    .Center form{
+    
+       
+        padding: 0 40px;
+        box-sizing:border-box;
+        /* background-color: #f8f8f8; */
+        height: 0vw;
+    }
+    .Center {
+        width: 300px;
+        height: 70vh;
+    }
+    .txt_field input{
+            width: 50%;
+            padding: 0 5px;
+            height: 10px;
+            font-size: 16px;
+            border: none;
+            background: none;
+            outline: none;
+        
+}
+}
+     
+        form h1{
+            text-align:center;
+            /* padding-top: 0 20px 0; */
+            /* border-bottom: 1px solid silver; */
+             margin-top:1rem ;
+             padding-top:2.5rem ;
+            
+        }
+        .Center form{
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            padding: 0 40px;
+            box-sizing:border-box;
+            /* background-color: #f8f8f8; */
+            height: 38vw;
+        }
+        form .txt_field{
+            position:relative;
+            border-bottom: 2px solid #adadad;
+            margin: 30px 0;
+        }
+        .txt_field input{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background: none;
+            outline: none;
+        
+}
+
+   
+        
+        .txt_field span::before{
+            content: "";
+            position: absolute;
+            top:40%;
+            left:0;
+            width: 100%;
+            height: 2px;
+            background: #2691d9;
+             top:4rem;
+            transition: .5s;
+        }
+        #remember-me{
+            /* margin: -5px 0 20px 5px; */
+            color: #a6a6a6;
+           
+            
+            
+        }
+        #submit{
+            width: 100%;
+            height: 50px;
+            border: 1px solid;
+            background: #2691d9;
+            border-radius: 25px;
+            font-size: 18px;
+            color: #e9f4fb;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            margin-top: 1rem;
+        }
+        #submit:hover{
+            border-color: #2691d9;
+            transition: .5s;
+        }
+        #signup{
+            margin-top:20px 0;
+            text-align: center;
+            font-size: 16px;
+            color: #666666;
+        }
+       
+        footer {
+            background-color:#41464b;
+            height: 3.5rem;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+        }
+        
+        footer * {
+            color: #f3eeee;
+        }
+        
+        .admin-view #admin-area {
+    min-height: 100vh;
+    
+    
+}
+
+.admin-view .admin-links {
+    background-color:#41464b;
+}
+    
+
+.allUsers{
+    margin-left:4rem;
+
+}
+
+.admin-view .admin-links * {
+    background-color: #41464b;
+}
+
+.admin-view .admin-links li {
+    color:#d6dae1;
+    border-color: #41464b;
+}
+
+.admin-view .admin-links .list-group-item {
+    border-bottom: 1px solid #41464b;
+}
+
+
+.admin-view .admin-links li a {
+    display: block;
+    color:#d6dae1;
+    border-color: #fff;
+    text-decoration: #fff;
+    transition: opacity .5s;
+}
+
+.admin-view .admin-links li a:hover {
+    opacity: .5;
+}
+.card-body1{
+    background-color: #7d9bc6;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    min-height: 80vh;
+}
+.link a{
+text-decoration: none;
+color:black;
+
+}
+.button-edit-profile-last{
+    margin-left: 17.8rem;
+}
+.button-edit-profile1{
+    margin-left: 22.7rem;
+}
+.button-edit-profile2{
+    margin-left: 17rem;
+}
+.button-edit-profile3{
+    margin-left: 22rem;
+}
+.button-edit-profile4{
+    margin-left: 20.7rem;
+    
+}
+.pos-card{
+    width: 170px;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.top{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+/* #toptabel{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 
+} */
+.hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 4px solid;
+    opacity: .25;
+}
+#color-card{
+    background-color: #ffff005c;
+}
+#color-card1{
+    background-color: #00800047;
+}
+#color-card2{
+    background-color: #0dcaf04a;;
+}
+#color-card3{
+    background-color: #dc354552;
+}
+#user-tabel
+ {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:whitesmoke;
+  }
+  
+@media only screen and (max-width:768px) and (min-width:200px)
+  {
+  
+  }
+  #user{
+    margin-bottom: 1rem;
+   color: #084298b3;
+   /* margin-right:1.3rem;
+   margin-left: 1.5rem; */
+   
+    
+  }
+  #creat-user{
+    height: 34px ;
+    margin-right: 56rem;
+    margin-top: 1.3rem;
+    background-color:#084298c7 ;
+  }
+  #titel-user{
+/* background-color:#dee2e687; */
+height: 5rem;
+  }
+  #actionuser{
+    background-color: rgb(76 13 253 / 24%);
+    ;
+    color: #fff;
+  }
+.table{
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#width-tabel{
+    width: 30rem;
+}
+#dashtittop{
+    width: 30rem;
+    
+}
+.fontcolor{
+    color:#1416198f
+}
+.cardcenter{
+    margin-left: 19rem;
+}
+#itemC{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #f5f3f5;
+}
+#imguser{
+    margin-top: -4rem;
+    width: 100rem;
+    margin-left: -1.5rem;
+}
+.sellinput{
+    margin-bottom: 3rem;
+    width: 15rem;
+    margin-left: 2rem;
+}
+.add{
+    background-color: #062a60;
+    margin-top: -2rem;
+}
+#color-cards{
+    background-color: #f8f9fa;
+}
+.card-body2{
+    background-color: #adb5bd;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    min-height: 80vh;
+}
+#sillingside{
+    margin-left:5.5rem ;
+}
+#actionuser1{
+    color: #fff;
+    background-color: #084298c7;
+}
+#seeall{
+    background-color: #0a3a82;
+}
+#itemclick{
+    color:black;
+    /* text-decoration:none; */
+}
